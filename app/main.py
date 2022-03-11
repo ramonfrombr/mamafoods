@@ -80,7 +80,7 @@ order_schema = OrderSchema()
 orders_schema = OrderSchema(many=True)
 
 
-# API Routes
+# API Route
 
 @app.route('/orders', methods=['GET'])
 def orders():
